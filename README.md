@@ -25,3 +25,4 @@ See each plugin readme for more info and usage instructions.
 | [Github Release](plugins/github-release/README.md) | Managing GitHub releases | `github` `release`|
 | [Google GKE](plugins/gke/README.md) | GKE Clusters | `GKE` `codefresh`|
 | [Vault](plugins/vault/README.md) | Export Vault Key/Value pairs as ENV variables | `Vault` `codefresh`|
+| [Octarine](plugins/octarine/README.md) | Security Scanning for applicatoin deployed to Kubernetes | `security`|
