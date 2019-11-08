@@ -1,0 +1,30 @@
+image: octarinesec/validator
+tag: latest
+version: 19.1
+description: Execute Kubernetes object security scan with Octarin (https://octarinesec.com)
+keywords:
+  - security
+  - scan
+home: https://github.com/octarinesec/validator
+sources:
+  - https://github.com/octarinesec/validator
+maintainers:
+  - name: Ram Akuka
+    email: ram@octarinesec.com
+icon: https://raw.githubusercontent.com/octarinesec/validator/master/images/logo_only.png
+envs:
+  - name: OCTARINE_ACCOUNT
+    type: required
+    description: Octarine account name
+  - name: OCTARINE_SESSION_ID
+    type: required
+    description: Octarine session ID
+  - name: OCTARINE_SESSION_ACCESSJWT
+    type: required
+    description: Octarine session access JWT
+  - name: OBJECT_DIR
+    type: required
+    description: Directory or file path with the Kubernetes yaml files
+  - name: OCTAINE_POLICY
+    type: required
+    description: Octarine Policy name to use for the validate
